@@ -5,3 +5,22 @@ node_js:
   - "0.10"
   - "0.8"
   - "0.6"
+services:
+- mongodb
+- redis-server
+
+before_script:
+
+
+
+
+after_success:
+
+
+
+after_failure:
+
+notifications:
+email:
+- yang_ping01@easyway.net.cn
+
