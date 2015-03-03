@@ -23,4 +23,5 @@ after_failure:
 notifications:
 email:
 - yang_ping01@easyway.net.cn
-on_success: change
+on_success: always
+on_failure: always
