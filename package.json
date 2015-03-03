@@ -4,7 +4,7 @@
   "description": "yangping",
   "main": "port8000.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha port8000.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yap510/myrepo/issues"
   },
-  "homepage": "https://github.com/yap510/myrepo"
+  "homepage": "https://github.com/yap510/myrepo",
+  "dependencies": {
+    "mocha": "^2.1.0"
+  }
 }
