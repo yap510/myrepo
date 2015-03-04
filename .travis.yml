@@ -11,6 +11,6 @@ services:
 notifications:
 email:
 recipients:
-- 23139262@qq.com
+- 23139162@qq.com
 on_success: always
 on_failure: always
