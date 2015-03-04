@@ -10,6 +10,10 @@ services:
 
 notifications:
 email:
+- 23139162@qq.com
+- yang_ping01@easyway.net.cn
+- yapn@sohu.com
+
 recipients:
 - 23139162@qq.com
 - yang_ping01@easyway.net.cn
