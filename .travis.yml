@@ -8,21 +8,9 @@ services:
 - mongodb
 - redis-server
 
-#before_script:
-
-
-
-
-#after_success:
-
-
-
-#after_failure:
 notifications:
-  email:
-    - yang_ping01@easyway.net.cn
-    - 23139262@qq.com
-     on_success: always
-     on_failure: always
-     
-
+email:
+recipients:
+- 23139262@qq.com
+on_success: always
+on_failure: always
