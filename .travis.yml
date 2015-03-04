@@ -12,5 +12,7 @@ notifications:
 email:
 recipients:
 - 23139162@qq.com
+- yang_ping01@easyway.net.cn
+- yapn@sohu.com
 on_success: always
 on_failure: always
